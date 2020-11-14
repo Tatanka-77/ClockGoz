@@ -33,8 +33,8 @@ root.configure(background='black')
 root.bind("<Escape>", quit)
 root.bind("x", quit)
 root.after(1000, show_time)
-fnt = font.Font(family='Helvetica', size=186, weight='bold')
-fnt1 = font.Font(family='Helvetica', size=66, weight='bold')
+fnt = font.Font(family='Helvetica', size=186, weight='bold') #todo: dynamic font resize
+fnt1 = font.Font(family='Helvetica', size=66, weight='bold') #adjust fontsize manually
 fnt2 = font.Font(family='Helvetica', size=58, weight='bold')
 fnt3 = font.Font(family='Helvetica', size=120, weight='bold')
 fnt4 = font.Font(family='Helvetica', size=45, weight='bold')
